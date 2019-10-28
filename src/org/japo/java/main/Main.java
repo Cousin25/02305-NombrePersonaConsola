@@ -28,9 +28,6 @@ public class Main {
             = new Scanner(System.in, "Windows-1252")
                     .useLocale(Locale.ENGLISH).useDelimiter("\\s+");
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
         String nombre;
         try {
@@ -42,8 +39,6 @@ public class Main {
         } catch (Exception e) {
             System.out.println("ERROR: DATO INTRODUCIDO ERRÓNEO.");
         } finally {
-
         }
-
     }
 }
